@@ -1,0 +1,22 @@
+{
+  "name": "06_lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -w",
+    "dev": "nodemon dist/main.js",
+    "start": "node dist/main.js > output.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "modelscript": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^15.12.2",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.3.2"
+  }
+}

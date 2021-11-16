@@ -1,0 +1,940 @@
+Luis Alberto Ccalluchi Lopez
+Algoritmo KNN-neighbours
+Train Data 47
+Test Data 12
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           104.93826756717495
+mandarin      80      4.3      5.9      0.81           107.58629094824303
+mandarin      80      4.3      5.8      0.77           107.655190306831
+mandarin      86      4.7      6.2      0.8           111.58870910625322
+Prediccion: 100%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           107.183767427722
+mandarin      80      4.3      5.9      0.81           109.70346393801793
+mandarin      80      4.3      5.8      0.77           109.70346393801793
+mandarin      86      4.7      6.2      0.8           113.64000175994366
+Prediccion: 100%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           112.14918724627476
+mandarin      80      4.3      5.9      0.81           114.8693179225854
+mandarin      80      4.3      5.8      0.77           114.8968972601088
+mandarin      86      4.7      6.2      0.8           119.0921664090464
+Prediccion: 100%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           1.4000000000000004
+orange      154      7.3      7.3      0.79           1.4000000000000004
+apple      156      7.4      7.4      0.84           1.4000000000000004
+apple      160      7.5      7.5      0.86           1.4000000000000004
+Prediccion: 0%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.214166618536059
+mandarin      80      4.3      5.8      0.77           7.241892017974308
+lemon      132      8.7      5.8      0.73           7.2697317694671515
+mandarin      80      4.3      5.9      0.81           7.283694117685064
+Prediccion: 75%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+mandarin       84        4.6        6       0.79
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           4.969124671408436
+mandarin      80      4.3      5.9      0.81           5.166836556346639
+mandarin      80      4.3      5.8      0.77           5.193938775149356
+mandarin      86      4.7      6.2      0.8           5.45216470771014
+Prediccion: 100%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           160.5596462377767
+mandarin      80      4.3      5.9      0.81           162.30271100631683
+mandarin      80      4.3      5.8      0.77           162.34839081432253
+mandarin      86      4.7      6.2      0.8           164.9830294303023
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           161.6232965880847
+mandarin      80      4.3      5.9      0.81           163.30517444343275
+mandarin      80      4.3      5.8      0.77           163.30517444343275
+mandarin      86      4.7      6.2      0.8           165.97523911716468
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           168.96228040601252
+mandarin      80      4.3      5.9      0.81           170.7798940156598
+mandarin      80      4.3      5.8      0.77           170.79844554327772
+mandarin      86      4.7      6.2      0.8           173.6483691256558
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.2999999999999998
+orange      154      7.3      7.3      0.79           0.2999999999999998
+apple      156      7.4      7.4      0.84           0.2999999999999998
+apple      160      7.5      7.5      0.86           0.2999999999999998
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.523391343825532
+mandarin      80      4.3      5.8      0.77           8.546870772393834
+lemon      132      8.7      5.8      0.73           8.57047256573405
+mandarin      80      4.3      5.9      0.81           8.582319033920843
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       152        7.3        7.6       0.69
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.33949589549582
+mandarin      80      4.3      5.9      0.81           7.474770899499194
+mandarin      80      4.3      5.8      0.77           7.493530543075139
+mandarin      86      4.7      6.2      0.8           7.67477035487056
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           175.18073524220637
+mandarin      80      4.3      5.9      0.81           176.77969340396538
+mandarin      80      4.3      5.8      0.77           176.82163329185713
+mandarin      86      4.7      6.2      0.8           179.243660975779
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           175.8185428218537
+mandarin      80      4.3      5.9      0.81           177.36586481056608
+mandarin      80      4.3      5.8      0.77           177.36586481056608
+mandarin      86      4.7      6.2      0.8           179.82727824220663
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           183.39244531877534
+mandarin      80      4.3      5.9      0.81           185.0683900616202
+mandarin      80      4.3      5.8      0.77           185.08550942739956
+mandarin      86      4.7      6.2      0.8           187.71865357497109
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.09999999999999964
+orange      154      7.3      7.3      0.79           0.09999999999999964
+apple      156      7.4      7.4      0.84           0.09999999999999964
+apple      160      7.5      7.5      0.86           0.09999999999999964
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.410291314811872
+mandarin      80      4.3      5.8      0.77           8.434085605446509
+lemon      132      8.7      5.8      0.73           8.458002128162418
+mandarin      80      4.3      5.9      0.81           8.470005903185664
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+apple       168        7.6        7.5       0.73
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.574496682948642
+mandarin      80      4.3      5.9      0.81           7.705647279755283
+mandarin      80      4.3      5.8      0.77           7.723846192150644
+mandarin      86      4.7      6.2      0.8           7.899803795031874
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           340.3190267969159
+mandarin      80      4.3      5.9      0.81           341.1448519324306
+mandarin      80      4.3      5.8      0.77           341.16658687509243
+mandarin      86      4.7      6.2      0.8           342.4281530481978
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           340.30392298649747
+mandarin      80      4.3      5.9      0.81           341.1059219655971
+mandarin      80      4.3      5.8      0.77           341.1059219655971
+mandarin      86      4.7      6.2      0.8           342.39224582341234
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           349.4353997522289
+mandarin      80      4.3      5.9      0.81           350.3178822155672
+mandarin      80      4.3      5.8      0.77           350.3269264558464
+mandarin      86      4.7      6.2      0.8           351.72518036103133
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.40000000000000036
+orange      154      7.3      7.3      0.79           0.40000000000000036
+apple      156      7.4      7.4      0.84           0.40000000000000036
+apple      160      7.5      7.5      0.86           0.40000000000000036
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.641711466332106
+mandarin      80      4.3      5.8      0.77           9.662473803328007
+lemon      132      8.7      5.8      0.73           9.68335685596684
+mandarin      80      4.3      5.9      0.81           9.69384340702902
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       342        9.4        9       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.219468531320013
+mandarin      80      4.3      5.9      0.81           9.327518426677054
+mandarin      80      4.3      5.8      0.77           9.34255853607565
+mandarin      86      4.7      6.2      0.8           9.488545726295468
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           353.83368974703353
+mandarin      80      4.3      5.9      0.81           354.6280445762856
+mandarin      80      4.3      5.8      0.77           354.6489531917442
+mandarin      86      4.7      6.2      0.8           355.86272634261655
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           354.1952004192039
+mandarin      80      4.3      5.9      0.81           354.96581525549755
+mandarin      80      4.3      5.8      0.77           354.96581525549755
+mandarin      86      4.7      6.2      0.8           356.20209151547664
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           363.11995070499773
+mandarin      80      4.3      5.9      0.81           363.9692550202558
+mandarin      80      4.3      5.8      0.77           363.9779600470336
+mandarin      86      4.7      6.2      0.8           365.32396923826394
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0
+orange      154      7.3      7.3      0.79           0
+apple      156      7.4      7.4      0.84           0
+apple      160      7.5      7.5      0.86           0
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.813388813248968
+mandarin      80      4.3      5.8      0.77           9.833788690021766
+lemon      132      8.7      5.8      0.73           9.854308702288558
+mandarin      80      4.3      5.9      0.81           9.864613525120992
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       356        9.2        9.2       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.032087244928494
+mandarin      80      4.3      5.9      0.81           9.14235199497372
+mandarin      80      4.3      5.8      0.77           9.157696216844059
+mandarin      86      4.7      6.2      0.8           9.30658369112963
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           359.32408769799997
+mandarin      80      4.3      5.9      0.81           360.1063315189001
+mandarin      80      4.3      5.8      0.77           360.12692207053885
+mandarin      86      4.7      6.2      0.8           361.32229380429874
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           360.07199280143965
+mandarin      80      4.3      5.9      0.81           360.8300569520228
+mandarin      80      4.3      5.8      0.77           360.8300569520228
+mandarin      86      4.7      6.2      0.8           362.04630919262246
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           369.0017936270771
+mandarin      80      4.3      5.9      0.81           369.83759097744513
+mandarin      80      4.3      5.8      0.77           369.8461578818955
+mandarin      86      4.7      6.2      0.8           371.1708873281955
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.40000000000000036
+orange      154      7.3      7.3      0.79           0.40000000000000036
+apple      156      7.4      7.4      0.84           0.40000000000000036
+apple      160      7.5      7.5      0.86           0.40000000000000036
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           10.168564303774648
+mandarin      80      4.3      5.8      0.77           10.188253039653068
+lemon      132      8.7      5.8      0.73           10.208060540572827
+mandarin      80      4.3      5.9      0.81           10.218008612249257
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       362        9.2        9.6       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.041443468827309
+mandarin      80      4.3      5.9      0.81           9.151595489312232
+mandarin      80      4.3      5.8      0.77           9.16692423880551
+mandarin      86      4.7      6.2      0.8           9.315664227525593
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           208.66310167348706
+mandarin      80      4.3      5.9      0.81           210.00728558790524
+mandarin      80      4.3      5.8      0.77           210.04259091908003
+mandarin      86      4.7      6.2      0.8           212.0855723522937
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           207.68013867483813
+mandarin      80      4.3      5.9      0.81           208.99169839972112
+mandarin      80      4.3      5.8      0.77           208.99169839972112
+mandarin      86      4.7      6.2      0.8           211.08465126578957
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           216.69326016283938
+mandarin      80      4.3      5.9      0.81           218.1134773460824
+mandarin      80      4.3      5.8      0.77           218.12800324580058
+mandarin      86      4.7      6.2      0.8           220.3666782887104
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           1.6999999999999993
+orange      154      7.3      7.3      0.79           1.6999999999999993
+apple      156      7.4      7.4      0.84           1.6999999999999993
+apple      160      7.5      7.5      0.86           1.6999999999999993
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.378126282170735
+mandarin      80      4.3      5.8      0.77           8.402011663881455
+lemon      132      8.7      5.8      0.73           8.426019226182671
+mandarin      80      4.3      5.9      0.81           8.438068499366427
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       204        9.2        7.5       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           9.013378944657768
+mandarin      80      4.3      5.9      0.81           9.12386979302094
+mandarin      80      4.3      5.8      0.77           9.139245045407197
+mandarin      86      4.7      6.2      0.8           9.288428284699194
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           168.3360923866299
+mandarin      80      4.3      5.9      0.81           169.9994411755521
+mandarin      80      4.3      5.8      0.77           170.04305337178582
+mandarin      86      4.7      6.2      0.8           172.56025034752355
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           168.73280653151005
+mandarin      80      4.3      5.9      0.81           170.34450387376754
+mandarin      80      4.3      5.8      0.77           170.34450387376754
+mandarin      86      4.7      6.2      0.8           172.9058992631541
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           176.0539468458461
+mandarin      80      4.3      5.9      0.81           177.7990781753381
+mandarin      80      4.3      5.8      0.77           177.8168973972946
+mandarin      86      4.7      6.2      0.8           180.5560746693392
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.40000000000000036
+orange      154      7.3      7.3      0.79           0.40000000000000036
+apple      156      7.4      7.4      0.84           0.40000000000000036
+apple      160      7.5      7.5      0.86           0.40000000000000036
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.950861588532402
+mandarin      80      4.3      5.8      0.77           7.9760265796949295
+lemon      132      8.7      5.8      0.73           8.001312392351643
+mandarin      80      4.3      5.9      0.81           8.01400024956326
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       160        7.4        7       0.81
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.3214889196119115
+mandarin      80      4.3      5.9      0.81           7.457090585476349
+mandarin      80      4.3      5.8      0.77           7.475894595297609
+mandarin      86      4.7      6.2      0.8           7.657551828097541
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           195.53590463134898
+mandarin      80      4.3      5.9      0.81           196.96969310023306
+mandarin      80      4.3      5.8      0.77           197.00733488883097
+mandarin      86      4.7      6.2      0.8           199.18406060726846
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           195.6313113997859
+mandarin      80      4.3      5.9      0.81           197.02309509293573
+mandarin      80      4.3      5.8      0.77           197.02309509293573
+mandarin      86      4.7      6.2      0.8           199.24181288073044
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           203.64892265857924
+mandarin      80      4.3      5.9      0.81           205.1594592018608
+mandarin      80      4.3      5.8      0.77           205.1749022175958
+mandarin      86      4.7      6.2      0.8           207.55333675949416
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.5999999999999996
+orange      154      7.3      7.3      0.79           0.5999999999999996
+apple      156      7.4      7.4      0.84           0.5999999999999996
+apple      160      7.5      7.5      0.86           0.5999999999999996
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.402243747952092
+mandarin      80      4.3      5.8      0.77           8.426060764081873
+lemon      132      8.7      5.8      0.73           8.450000000000001
+mandarin      80      4.3      5.9      0.81           8.462015126434128
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       190        8.1        7.5       0.74
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.021577151657896
+mandarin      80      4.3      5.9      0.81           8.14553251788979
+mandarin      80      4.3      5.8      0.77           8.16275076184493
+mandarin      86      4.7      6.2      0.8           8.329441758005155
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           151.62915286975655
+mandarin      80      4.3      5.9      0.81           153.47367852501614
+mandarin      80      4.3      5.8      0.77           153.52198539622916
+mandarin      86      4.7      6.2      0.8           156.30547015379852
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           152.29458296341338
+mandarin      80      4.3      5.9      0.81           154.0783242380316
+mandarin      80      4.3      5.8      0.77           154.0783242380316
+mandarin      86      4.7      6.2      0.8           156.90548110247772
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           160.0159323317525
+mandarin      80      4.3      5.9      0.81           161.93399457803787
+mandarin      80      4.3      5.8      0.77           161.95355939280864
+mandarin      86      4.7      6.2      0.8           164.95636544250118
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.20000000000000018
+orange      154      7.3      7.3      0.79           0.20000000000000018
+apple      156      7.4      7.4      0.84           0.20000000000000018
+apple      160      7.5      7.5      0.86           0.20000000000000018
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.4748215320442
+mandarin      80      4.3      5.8      0.77           8.498435150073217
+lemon      132      8.7      5.8      0.73           8.522171084882068
+mandarin      80      4.3      5.9      0.81           8.534084602346052
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       142        7.8        7.6       0.75
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.73812638821569
+mandarin      80      4.3      5.9      0.81           7.866549434154723
+mandarin      80      4.3      5.8      0.77           7.884376956995397
+mandarin      86      4.7      6.2      0.8           8.056829401197472
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           166.33905133792246
+mandarin      80      4.3      5.9      0.81           168.02217115607095
+mandarin      80      4.3      5.8      0.77           168.0662964428026
+mandarin      86      4.7      6.2      0.8           170.61266072598482
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           166.56542258223942
+mandarin      80      4.3      5.9      0.81           168.19788940411826
+mandarin      80      4.3      5.8      0.77           168.19788940411826
+mandarin      86      4.7      6.2      0.8           170.7914810521883
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           174.28370262305077
+mandarin      80      4.3      5.9      0.81           176.0463830926384
+mandarin      80      4.3      5.8      0.77           176.0643797024259
+mandarin      86      4.7      6.2      0.8           178.83040261655734
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           0.5999999999999996
+orange      154      7.3      7.3      0.79           0.5999999999999996
+apple      156      7.4      7.4      0.84           0.5999999999999996
+apple      160      7.5      7.5      0.86           0.5999999999999996
+Prediccion: 50%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           8.13910314469598
+mandarin      80      4.3      5.8      0.77           8.163687892123265
+lemon      132      8.7      5.8      0.73           8.188394225976177
+mandarin      80      4.3      5.9      0.81           8.200792644616739
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+orange       158        7.8        7.2       0.77
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.71990932589237
+mandarin      80      4.3      5.9      0.81           7.848630453779817
+mandarin      80      4.3      5.8      0.77           7.866498585774994
+mandarin      86      4.7      6.2      0.8           8.039334549575605
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs WIDTH
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           132.26658686153505
+mandarin      80      4.3      5.9      0.81           134.37715579666062
+mandarin      80      4.3      5.8      0.77           134.4323249817543
+mandarin      86      4.7      6.2      0.8           137.60250724459928
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs HEIGTH
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           131.46862743635836
+mandarin      80      4.3      5.9      0.81           133.53085785690138
+mandarin      80      4.3      5.8      0.77           133.53085785690138
+mandarin      86      4.7      6.2      0.8           136.78336887209642
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			MASS vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           139.31308086464816
+mandarin      80      4.3      5.9      0.81           141.5120295239949
+mandarin      80      4.3      5.8      0.77           141.53441736906257
+mandarin      86      4.7      6.2      0.8           144.9608167747409
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			WIDTH vs HEIGTH
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+orange      154      7.2      7.2      0.82           2.0999999999999996
+orange      154      7.3      7.3      0.79           2.0999999999999996
+apple      156      7.4      7.4      0.84           2.0999999999999996
+apple      160      7.5      7.5      0.86           2.0999999999999996
+Prediccion: 0%
+Clase esperada: 
+		[x]Apple
+----------------------------------------------------------------------------
+			WIDTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.192530848039514
+mandarin      80      4.3      5.8      0.77           7.220339327206167
+lemon      132      8.7      5.8      0.73           7.248261860611826
+mandarin      80      4.3      5.9      0.81           7.262265486747231
+Prediccion: 25%
+Clase esperada: 
+		[x]Mandarin
+----------------------------------------------------------------------------
+			HEIGTH vs COLOR SCORE
+fruit_name   mass    height    width    color_score
+lemon       118        8        5.9       0.72
+K = 4 neighbours
+fruit_name   mass    height    width  color_score    distance
+mandarin      76      4      5.8      0.81           7.948238798627027
+mandarin      80      4.3      5.9      0.81           8.073320258728748
+mandarin      80      4.3      5.8      0.77           8.090692182996458
+mandarin      86      4.7      6.2      0.8           8.258837690619668
+Prediccion: 0%
+Clase esperada: 
+		[x]Mandarin
