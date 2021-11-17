@@ -1,4 +1,5 @@
 const ms: any = require("modelscript/build/modelscript.cjs.js");
+import { performance } from "perf_hooks";
 import KNN_neighbours from "./functions/knn";
 import { readCsv } from "./functions/readCsv";
 
@@ -6,27 +7,24 @@ import { readCsv } from "./functions/readCsv";
  * Funcion asincrona principal
  */
 async function main(): Promise<void> {
-  const csv = await readCsv("./fruit.csv");
 
-  // El total de datos es "69" antes de dividir en train"80%" y test "20%"
-  // Obtenemos nuestros datos de train y test
-  // test sera el 20% de nuestro dataset -> 20% de 69 es 11.8 = 12 datos
-  // train sera los 47 datos de nuestro dataset
-  const data = ms.cross_validation.train_test_split(csv.data, {
-    test_size: 0.2,
-    random_state: 0.2,
-  });
-  // ---------------------------------------------------------------------
-  // console.log(data.test.length); // 20% de 69 es 11.8 = 12 datos
-  // console.log(data.train.length); //                    47 datos 
-  // ---------------------------------------------------------------------
-  const k = 4; // 4 vecinos mas cercanos de trainTest "datos de prueba"
-  console.log("Luis Alberto Ccalluchi Lopez");
-  console.log("Algoritmo KNN-neighbours");
-  console.log(`Train Data ${data.train.length}`);
-  console.log(`Test Data ${data.test.length}`);
+  const file: Array<string> = ['test100', 'test500', 'test1000', 'test5000', 'test10000', 'test20000', 'test100000', 'test200000', 'test350000'];
+  console.log("size, time");
+  for (let i = 0; i < file.length; i++) {
 
-  KNN_neighbours(data.train, data.test, k);
+    const csv = await readCsv(`./data/${file[i]}.csv`);
+    // El total de datos divido en train "80%" y test "20%"
+    // Obtenemos nuestros datos de train y test
+    const data = ms.cross_validation.train_test_split(csv.data, {
+      test_size: 0.2,
+      random_state: 0.2,
+    });
+    const k = 2; // 2 vecinos mas cercanos de trainTest "datos de prueba"
+    let start: number = performance.now();
+    KNN_neighbours(data.train, data.test, k);
+    let end: number = performance.now();
+    console.log(`${file[i].slice(4)}, ${+(end - start).toFixed(4)}`);
+  }
 }
 
 
