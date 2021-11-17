@@ -1,4 +1,4 @@
-# Laboratorio N-6
+# KNN
 
 ### **Antes de comenzar ...**
 
